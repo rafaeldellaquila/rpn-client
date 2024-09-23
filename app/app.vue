@@ -6,6 +6,7 @@
   </div>
 </template>
 <script lang="ts" setup>
+
 useSeoMeta({
   title: "Role Play Notes",
   description: "Website for facilitate your RPG tables",
@@ -27,7 +28,7 @@ useHead({
     {
       rel: "icon",
       type: "image/png",
-      href: "/favicon.png",
+      href: "/favicon.ico",
     },
     {
       rel: "preconnect",
@@ -40,4 +41,6 @@ useHead({
     },
   ],
 })
+
+
 </script>
