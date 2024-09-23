@@ -11,11 +11,11 @@ useSeoMeta({
   description: "Website for facilitate your RPG tables",
   ogTitle: "Role Play Notes",
   ogDescription: "Nuxt portfolio to learn the framework",
-  ogImage: "/assets/images/logo.png",
+  ogImage: "/images/logo.png",
   ogUrl: "https://tbd",
   twitterTitle: "Role Play Notes",
   twitterDescription: "Website for facilitate your RPG tables",
-  twitterImage: "/assets/images/logo.png",
+  twitterImage: "/images/logo.png",
   twitterCard: "summary",
 })
 
