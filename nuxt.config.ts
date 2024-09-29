@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/image",
     "@nuxtjs/i18n",
+    "nuxt-zod-i18n"
   ],
   colorMode: {classSuffix: ""},
   image: {provider: 'ipx'},
@@ -25,15 +26,15 @@ export default defineNuxtConfig({
   i18n: {
     locales: [{
       code: "en",
-      iso: "en-US",
+      language: "en-US",
       name: "English",
-      file: "./locale/enus.json"
+      file: "../locales/enus.json"
     },
     {
       code: "pt",
-      iso: "pt-BR",
+      language: "pt-BR",
       name: "Portugês (Brasil)",
-      file: "./locale/ptbr.json"
+      file: "../locales/ptbr.json"
     }
     ],
     defaultLocale: "pt",

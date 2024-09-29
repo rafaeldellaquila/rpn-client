@@ -1,0 +1,13 @@
+{
+  "welcome": "Welcome",
+  "zod_invalid_email": "Invalid email",
+  "zod_min_password": "Password must be at least 8 characters long.",
+  "email": "E-mail",
+  "password": "Password",
+  "login": "Login",
+  "zodI18n": {
+    "errors": {
+      "invalid_type_received_undefined": "Required"
+    }
+  }
+}

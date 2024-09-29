@@ -778,6 +778,11 @@
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.14.0.tgz#e8fb3693ad4171442cbe6cb8922a9b5a22ffb4ef"
   integrity sha512-r+N8KRQL7LgN1TMTs1A2svfuAU0J94Wu9wWdJVJqYsoMMLIeJxrPjazihfHpmJqfgZq0ah3Y9Q4pgWV2O90Fyg==
 
+"@intlify/shared@^9.14.0":
+  version "9.14.1"
+  resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.14.1.tgz#11c3d6103615d8b0203224826d2955987c058b72"
+  integrity sha512-XjHu6PEQup9MnP1x0W9y0nXXfq9jFftAYSfV11hryjtH4XqXP8HrzMvXI+ZVifF+jZLszaTzIhvukllplxTQTg==
+
 "@intlify/unplugin-vue-i18n@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@intlify/unplugin-vue-i18n/-/unplugin-vue-i18n-3.0.1.tgz#8bed58d5cbaadda056c2ff88acf99300db516639"
@@ -2744,6 +2749,11 @@ decompress-response@^6.0.0:
   dependencies:
     mimic-response "^3.1.0"
 
+dedupe@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/dedupe/-/dedupe-4.0.3.tgz#2b5ee0f15aa900efb0787d1f9de569064bf759a5"
+  integrity sha512-WMo1AIq5MSstJ5DhVVccdue22MEpaxzf0tdznjXgWrfei9F3aNYP7xhbKgi1U8JlvTU4RyhUSLI63jt7PUipBQ==
+
 deep-equal@~1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
@@ -4521,6 +4531,17 @@ nuxi@^3.13.2:
   integrity sha512-yAgpxBcIB2/DWL7dWRZOQa5ULLZQ4AWgYdqtUDbeOZ3KxmY/+fqm8/UJuU7QK81JrccNaZeSI+GLe5BY7RR3cQ==
   optionalDependencies:
     fsevents "~2.3.3"
+
+nuxt-zod-i18n@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/nuxt-zod-i18n/-/nuxt-zod-i18n-1.10.0.tgz#c0deeb4b3a7a71189dd1e39e9c4c62028213457a"
+  integrity sha512-MhmP57IIQaAJ6qyc/thAe/hNFIIcbLx+obmlk9AlnIZlg/5xPFtlCQYJEKk4vfuS/39lQnzxulQ0U57VEyFqSA==
+  dependencies:
+    "@intlify/shared" "^9.14.0"
+    "@nuxt/kit" "^3.13.2"
+    dedupe "^4.0.3"
+    defu "^6.1.4"
+    zod "^3.23.8"
 
 nuxt@^3.13.0:
   version "3.13.2"
@@ -6501,3 +6522,8 @@ zip-stream@^6.0.1:
     archiver-utils "^5.0.0"
     compress-commons "^6.0.2"
     readable-stream "^4.0.0"
+
+zod@^3.23.8:
+  version "3.23.8"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.23.8.tgz#e37b957b5d52079769fb8097099b592f0ef4067d"
+  integrity sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==

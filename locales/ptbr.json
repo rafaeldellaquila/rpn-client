@@ -1,0 +1,13 @@
+{
+  "welcome": "Bem vindo",
+  "zod_invalid_email": "E-mail inválido",
+  "zod_min_password": "A senha deve ter no mínimo 8 caracteres.",
+  "email": "E-mail",
+  "password": "Senha",
+  "login": "Entrar",
+  "zodI18n": {
+    "errors": {
+      "invalid_type_received_undefined": "Obrigatório"
+    }
+  }
+}

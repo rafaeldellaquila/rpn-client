@@ -6,7 +6,6 @@
   </div>
 </template>
 <script lang="ts" setup>
-
 useSeoMeta({
   title: "Role Play Notes",
   description: "Website for facilitate your RPG tables",
@@ -19,7 +18,6 @@ useSeoMeta({
   twitterImage: "/images/logo.png",
   twitterCard: "summary",
 })
-
 useHead({
   htmlAttrs: {
     lang: "en",
@@ -41,6 +39,4 @@ useHead({
     },
   ],
 })
-
-
 </script>
