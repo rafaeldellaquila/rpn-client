@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/image",
     "@nuxtjs/i18n",
-    "nuxt-zod-i18n"
+    "nuxt-zod-i18n",
+    "@nuxtjs/supabase"
   ],
   colorMode: {classSuffix: ""},
   image: {provider: 'ipx'},
@@ -38,5 +39,10 @@ export default defineNuxtConfig({
     }
     ],
     defaultLocale: "pt",
-   }
+   },
+  supabase: {
+    url: process.env.NUXT_PUBLIC_SUPABASE_URL,
+    key: process.env.NUXT_PUBLIC_SUPABASE_KEY,
+    redirect: false,
+  }
 })

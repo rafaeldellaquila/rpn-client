@@ -1,6 +1,6 @@
 <template>
   <UForm :schema="loginSchema" :state="state" class="space-y-4" @submit="onSubmit">
-    <UFormGroup :label="$t('email') " name="email">
+    <UFormGroup :label="$t('email')" name="email">
       <UInput v-model="state.email" />
     </UFormGroup>
 
@@ -15,9 +15,8 @@
 
 <script setup lang="ts">
 import type { FormSubmitEvent } from '#ui/types'
-import { z } from 'zod';
 import type { UserProps } from '~~/types/user';
-
+import { z } from 'zod';
 const { t } = useI18n()
 
 const loginSchema = z.object({
@@ -30,7 +29,7 @@ const state = reactive({
   password: undefined
 })
 
-async function onSubmit (event: FormSubmitEvent<UserProps>) {
-  console.log(event.data)
+async function onSubmit(event: FormSubmitEvent<UserProps>) {
+  console.log('$supabase')
 }
 </script>
